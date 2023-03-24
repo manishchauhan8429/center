@@ -26,6 +26,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var material_icons_iconfont_material_icons_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(material_icons_iconfont_material_icons_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _fontsource_poppins__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(8974);
 /* harmony import */ var _fontsource_poppins__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_fontsource_poppins__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(1367);
+/* harmony import */ var font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_7__);
+
 
 
 
@@ -58,6 +61,13 @@ function MyApp({ Component , pageProps  }) {
 /***/ }),
 
 /***/ 9090:
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ 1367:
 /***/ (() => {
 
 

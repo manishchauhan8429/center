@@ -19,7 +19,7 @@ import { Catgory } from "../../../react_dream";
 const Course = ()=>{
   return(
     <>
-    <Stack direction="column"  sx={{backgroundImage:"url(/banner.png)",mt:10,py:6}}>
+    <Stack direction="column"  sx={{backgroundImage:"url(/banner.png)",mt:2,py:6}}>
     <Container>
      <Grid container>
        <Grid item md={7}>

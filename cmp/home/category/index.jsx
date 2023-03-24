@@ -74,7 +74,7 @@ const Data = [
          }
          </Grid>
          </Container>
-        <Container sx={{my:10}}>
+        <Container sx={{my:6}}>
           <Grid container>
               <Grid item md={8} xs={12}>
                 <Typography sx={{color:"#F99792",m:1,fontSize:"20px"}}>Favourite Course</Typography>

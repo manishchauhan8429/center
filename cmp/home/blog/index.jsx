@@ -11,6 +11,7 @@ import SwiperCore, { Virtual, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import {useEffect,useState} from "react";
+import Style from "./style.module.css";
 import Data from './blog';
 const Blog = ()=>{
 let interval = "";
@@ -120,27 +121,27 @@ const Service = [
        </Grid>
       </Swiper>
      </Grid>
-     <Grid container  spacing={1} sx={{background:"linear-gradient(to right,#B6CDF9,#E5F5FE)",my:5,borderRadius:"25px"}} className="border p-4">
-       <Grid item md={4}>
-         <Stack direction="row" spacing={2}>
-          <Stack justifyContent="center" alignItems="center" width={120} height={100} sx={{borderRadius:"18px",backgroundColor:"white"}}>
-           <Image src="/icon-07.svg" width={70} height={70} alt="icon" />
-          </Stack>
-          <Box>
-          <Typography className="fw-bold" sx={{fontSize:"40px"}}>
+     <Grid container  spacing={1} sx={{background:"linear-gradient(to right,#B6CDF9,#E5F5FE)",my:5,borderRadius:"25px"}} className="border p-4 ">
+     <Grid item md={4} >
+     <Stack direction="row" spacing={2}>
+      <Stack justifyContent="center" alignItems="center" width={120} height={100}  sx={{borderRadius:"18px",backgroundColor:"white"}}>
+      <Image src="/icon-07.svg" width={70} height={70} alt="icon" />
+      </Stack>
+      <Box>
+      <Typography className={`fw-bold ${Style.txt}`} >
            {seconds}{seconds.toLocaleString('en-US') == 5 ?  clearInterval(interval) : null} </Typography>
-          <Typography   variant="h6">STUDENTS ENROLLED</Typography>
-          </Box>
-          </Stack>
-       </Grid>
-     <Grid item md={4}>
+          <Typography   variant="h6" className={`fw-bold ${Style.txt}`}>STUDENTS<br className={` ${Style.brk}`}/> ENROLLED</Typography>
+      </Box>
+      </Stack>
+     </Grid>  
+     <Grid item md={4}   >
      <Stack direction="row" spacing={2}>
       <Stack justifyContent="center" alignItems="center" width={120} height={100} sx={{borderRadius:"18px",backgroundColor:"white"}}>
        <Image src="/icon-08.svg" width={70} height={70} alt="icon" />
       </Stack>
-      <Box>
-      <Typography className="fw-bold" sx={{fontSize:"40px"}}>0 </Typography>
-      <Typography   variant="h6">TOTAL COURSES</Typography>
+      <Box  >
+      <Typography  className={`fw-bold ${Style.txt}`}>0 </Typography>
+      <Typography   variant="h6" className={`fw-bold ${Style.txt}`} >TOTAL <br className={` ${Style.brk}`}/> COURSES</Typography>
       </Box>
       </Stack>
      </Grid>
@@ -150,8 +151,8 @@ const Service = [
        <Image src="/icon-09.svg" width={70} height={70} alt="icon" />
       </Stack>
       <Box>
-      <Typography className="fw-bold" sx={{fontSize:"40px"}}>0 </Typography>
-      <Typography   variant="h6">COUNTRIES</Typography>
+      <Typography  className={`fw-bold ${Style.txt}`}>0 </Typography>
+      <Typography   variant="h6" className={`fw-bold ${Style.txt}`}>COUNTRIES</Typography>
       </Box>
       </Stack>
      </Grid>
