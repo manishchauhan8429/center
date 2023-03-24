@@ -1,0 +1,69 @@
+[
+  {
+    "id":1,
+    "owner":"Nicole Brown",
+    "decs":"Information About UI/UX Design <br />Degree ",
+    "lesson":"12+ Lesson",
+     "duration":"9hr 30min",
+     "plasponit":"4.0 (15)",
+     "pic":"/user1.jpg",
+     "course":"/course-05.jpg",
+     "price":"$300"
+  },
+  {
+    "id":2,
+    "owner":"Jenis R.",
+    "decs":"Wordpress for Beginners - Master Wordpress Quickly",
+    "lesson":"11+ Lesson",
+     "duration":"6hr 30min",
+     "plusponit":"4.3 (15)",
+     "pic":"/user2.jpg",
+     "course":"/course-08.jpg",
+     "price":"$400"
+  },
+  {
+    "id":3,
+    "owner":"Jesse Stevens",
+    "decs":"Sketch from A to Z (2022): Become an app designer ",
+    "lesson":"16+ Lesson",
+     "duration":"12hr 30min",
+     "plusponit":"4.5 (15)",
+     "pic":"/user5.jpg",
+     "course":"/course-07.jpg",
+     "price":"FREE"
+  },
+  {
+    "id":4,
+    "owner":"Nicole Brown",
+    "decs":"Learn Angular Fundamentals From beginning to advance lavel   ",
+    "lesson":"10+ Lesson",
+     "duration":"8hr 30min",
+     "plusponit":"4.2 (15)",
+     "pic":"/course-09.jpg",
+     "course":"/course-04.jpg",
+     "price":"$500 "
+  },
+  {
+    "id":5,
+    "owner":"John Smith",
+    "decs":"Build Responsive Real World Websites with HTML5 and CSS3  ",
+    "lesson":"13+ Lesson",
+     "duration":"10hr 30min",
+     "plusponit":"4.0 (15)",
+     "pic":"/user3.jpg",
+     "course":"/course-08.jpg",
+     "price":"$300"
+  },
+  {
+    "id":6,
+    "owner":"Stella Johnson",
+    "decs":"C# Developers Double Your Coding Speed with Visual Studio   ",
+    "lesson":"7+ Lesson",
+     "duration":"7hr 30min",
+     "plusponit":"4.6 (15)",
+     "pic":"/user4.jpg",
+     "course":"/course-06.jpg",
+     "price":"FREE"
+  }
+
+]

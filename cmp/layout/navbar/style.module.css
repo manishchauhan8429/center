@@ -1,0 +1,40 @@
+.btn{
+  
+    margin-right:20px;
+    border-radius:20px;
+    width:100px;
+    border:none;
+    height:40px;
+    transition: 0.5s;
+    color: #728FCE;
+    font-family:'poppins';
+    border:2px solid #ADD8E6 ;
+    font-weight:500;
+}
+.btn:hover{
+    background-color: #F6657B !important;
+    border-color: #F6657B;
+    color:white;
+    transition: 0.5s;
+
+}
+.btn2{
+  
+   
+    border-radius:20px;
+    width:100px;
+    border:none;
+    height:40px;
+    transition: 0.5s;
+    color: black;
+    font-family:'poppins';
+    border:2px solid blue ;
+    font-weight:500;
+}
+.btn2:hover{
+    background-color: #F6657B !important;
+    border-color: #F6657B;
+    color:white;
+    transition: 0.5s;
+
+}
